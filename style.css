@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: rgb(233, 233, 233);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: white;
+}
+
+header{
+    background-color: rgb(226, 225, 225);
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ nav ul li{
+    list-style: none;
+    padding: 0px 21px;
+ }
+
+nav ul li a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    width: 35vw;
+    height: 5vh; 
+    border-style: none;
+    padding-left: 15px;
+    margin-left: 61px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+.search-bar:hover{
+    border-style:none;
+}
+.log-in-btn{
+    display: flex;
+align-items: center;
+margin: 0px 31px;
+}
+
+.container{
+    min-height: calc(100vh - 8vh - 10vh);
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    background-color: black;
+    color: wheat;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
